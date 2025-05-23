@@ -1,2 +1,11 @@
-since i already have node installed i used the command below to instal sass 
-npm install sass -v 3.7.4
+since i already have node installed i used the commands below to instal sass 
+## 1 Open Command Prompt: Press Win + R, type cmd, and hit Enter.
+# Install SASS
+In the command prompt i run the following command:
+npm install -g sass
+# Verify Installation
+Run the following command to ensure SASS is installed correctly:
+sass --version
+# Start Using SASS
+compiled sass file by running
+sass input.scss output.css
